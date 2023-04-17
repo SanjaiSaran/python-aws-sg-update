@@ -1,0 +1,56 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RevokeSecurityGroupIngress",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:UpdateSecurityGroupRuleDescriptionsEgress",
+                "ec2:RevokeSecurityGroupEgress",
+                "ec2:ModifySecurityGroupRules",
+                "ec2:UpdateSecurityGroupRuleDescriptionsIngress"
+            ],
+            "Resource": [
+                "arn:aws:ec2:ap-south-1:958654149869:security-group/sg-123456789abcd",
+                "arn:aws:ec2:ap-south-1:958654149869:security-group-rule/sgr-123456789abcd"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RevokeSecurityGroupIngress",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:UpdateSecurityGroupRuleDescriptionsEgress",
+                "ec2:RevokeSecurityGroupEgress",
+                "ec2:ModifySecurityGroupRules",
+                "ec2:UpdateSecurityGroupRuleDescriptionsIngress"
+            ],
+            "Resource": [
+                "arn:aws:ec2:ap-south-1:958654149869:security-group/sg-123456789abcd",
+                "arn:aws:ec2:ap-south-1:958654149869:security-group-rule/sgr-123456789abcd"
+            ]
+        },
+        {
+            "Sid": "VisualEditor2",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RevokeSecurityGroupIngress",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:UpdateSecurityGroupRuleDescriptionsEgress",
+                "ec2:RevokeSecurityGroupEgress",
+                "ec2:ModifySecurityGroupRules",
+                "ec2:UpdateSecurityGroupRuleDescriptionsIngress"
+            ],
+            "Resource": [
+                "arn:aws:ec2:ap-south-1:958654149869:security-group-rule/sgr-123456789abcd",
+                "arn:aws:ec2:ap-south-1:958654149869:security-group/sg-123456789abcd"
+            ]
+        }
+    ]
+}
